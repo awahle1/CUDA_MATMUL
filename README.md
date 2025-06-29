@@ -5,7 +5,7 @@ For an explanation of each kernel, see [siboehm.com/CUDA-MMM](https://siboehm.co
 
 ## Overview
 
-Running the kernels on a NVIDIA A6000 (Ampere):
+Running the kernels on a NVIDIA 3060 (Ampere):
 
 ![](benchmark_results.png)
 
@@ -34,4 +34,4 @@ GFLOPs at matrix size 4096x4096:
 1. Run one of the kernels: `DEVICE=<device_id> ./sgemm <kernel number>`
 1. Profiling via [NVIDIA Nsight Compute](https://developer.nvidia.com/nsight-compute) (ncu): `make profile KERNEL=<kernel number>`
 
-Credit goes to [wangzyon/NVIDIA_SGEMM_PRACTICE](https://github.com/wangzyon/NVIDIA_SGEMM_PRACTICE) for the benchmarking setup.
+Credit goes to [siboehm/SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA) for the template and [great explanations](https://siboehm.com/articles/22/CUDA-MMM).
