@@ -34,4 +34,4 @@ GFLOPs at matrix size 4096x4096:
 1. Run one of the kernels: `DEVICE=<device_id> ./sgemm <kernel number>`
 1. Profiling via [NVIDIA Nsight Compute](https://developer.nvidia.com/nsight-compute) (ncu): `make profile KERNEL=<kernel number>`
 
-Credit goes to [siboehm/SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA) for the template and [great explanations](https://siboehm.com/articles/22/CUDA-MMM).
+Credit goes to [siboehm/SGEMM_CUDA](https://github.com/siboehm/SGEMM_CUDA) for the repo template and [great explanations](https://siboehm.com/articles/22/CUDA-MMM).
