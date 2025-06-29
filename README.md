@@ -1,7 +1,7 @@
 # Fast CUDA SGEMM from Scratch
 
 Step-by-step optimization of matrix multiplication, implemented in CUDA.
-For an explanation of each kernel, see [siboehm.com/CUDA-MMM](https://siboehm.com/articles/22/CUDA-MMM).
+I explain each kernel in my blog post, [here](https://austinw.bearblog.dev/optimizing-matmul-kernel/). 
 
 ## Overview
 
