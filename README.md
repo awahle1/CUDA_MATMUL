@@ -28,7 +28,7 @@ GFLOPs at matrix size 4096x4096:
 1. Configure NVCC compilation parameters. Look up your GPUs compute
    capability [here](https://developer.nvidia.com/cuda-gpus). Then configure the `CMakeLists.txt` and change:
     ```cmake
-    set(CUDA_COMPUTE_CAPABILITY 80)
+    set(CUDA_COMPUTE_CAPABILITY 86)
     ```
 1. Build: `mkdir build && cd build && cmake .. && cmake --build .`
 1. Run one of the kernels: `DEVICE=<device_id> ./sgemm <kernel number>`
